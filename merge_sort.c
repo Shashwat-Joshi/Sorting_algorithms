@@ -1,5 +1,5 @@
 #include <stdio.h>
-void Merge(int A[], int Left, int mid, int Right)
+void Merge(int A[], int Left, int mid, int Right)               // to merge the individual array into a sorted array
 {
     int n1 = mid - Left + 1;
     int n2 = Right - mid;
@@ -40,7 +40,7 @@ void Merge(int A[], int Left, int mid, int Right)
         k++;
     }
 }
-void MergeSort(int A[], int Left, int Right)
+void MergeSort(int A[], int Left, int Right)                // split the array into left and write until they become individual elements
 {
     if (Left < Right)
     {
