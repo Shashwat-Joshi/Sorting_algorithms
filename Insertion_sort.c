@@ -7,7 +7,7 @@ int main()
     for (i = 0; i < n; i++)
         scanf("%d", (ar + i));
 
-    for (i = 1; i < n; i++)
+    for (i = 1; i < n; i++)                     // Sorting algo for insertion sort very basic try dry run
     {
         key = ar[i];
         j = i - 1;
